@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: A6677C;
+    background: linear-gradient(180deg, #A6677C, #EE05B8);
+}
+
+#heading {
+    margin-bottom: 20px;
+    color: navy;
+    border: 5px solid navy;
+    padding: 0 20px;
+    box-shadow: inset -6px -6px 6px 2px greenyellow;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#heading2 {
+    margin-bottom: 20px;
+    color: navy;
+    border: 5px solid navy;
+    padding: 0 20px;
+    box-shadow: inset -6px -6px 6px 2px greenyellow;
+    font-size: 50px;
+    font-family: cursive;
+
+}
+
+#heading3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: navy;
+    border: 5px solid navy;
+    padding: 0 20px;
+    box-shadow: inset -6px -6px 6px 2px greenyellow;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    width: 360px;
+    height: 570px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+    box-shadow: 3px 3px 5px 3px black;
+}
+
+.card img {
+    height: 61%;
+    border-radius: 10px;
+}
+
+.card h2 {
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+.card p {
+    font-size: 1.2rem;
+}
+
+.container2 {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card2 {
+    width: 400px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    box-shadow: 3px 3px 5px 3px black;
+}
+
+.card2 img {
+    width: 100%;
+    height: 35%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.textbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 75%;
+    text-align: center;
+}
+
+.box2 {
+    width: 80%;
+    height: 10%;
+    background-color: #acb8ee;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.leftside {
+    height: 100%;
+    display: flex;
+    gap: 15px;
+
+    align-items: center;
+}
+
+.imgbox img {
+    height: 3.5rem;
+    width: 3.5rem;
+}
+
+.btn {
+    width: 80%;
+    height: 9%;
+    background-color: rgb(22, 22, 79);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px 10px rgba(0, 0, 0, 0.19), 0 6px 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.cancelbox a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+}
+
+.container3 {
+    width: 100vw;
+    height: 80vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card3 {
+    width: 1000px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 3px 3px 5px 3px black;
+
+
+}
+
+.leftbox3 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    justify-content: space-around;
+    color: white;
+    background-color: rgb(92, 0, 69);
+}
+
+
+
+.rightbox3 {
+
+    width: 50%;
+    height: 100%;
+    background-image: url("img3.jfif");
+    background-repeat: none;
+    background-size: contain;
+    background-position: center;
+}
+
+.textbox3 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 65px;
+
+}
+
+#textheading {
+    font-size: 1.6rem;
+
+}
+
+.item1 {
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+.item11 {
+    font: 100px;
+}
+
+.lowerbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copy{
+    margin: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
